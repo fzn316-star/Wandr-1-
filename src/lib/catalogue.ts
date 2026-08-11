@@ -1,6 +1,6 @@
 import 'server-only';
 import { supabaseAdmin } from '@/lib/supabaseAdmin';
-import { Destination } from '@/types';
+import { Destination, OriginCity, OriginTransit } from '@/types';
 
 /**
  * The Layer 1 catalogue, read from Postgres and cached for the process lifetime.
@@ -120,6 +120,55 @@ function buildPromptText(destinations: Destination[]): string {
       ].join('\n')
     )
     .join('\n\n');
+}
+
+/** 'Delhi NCR' → 'delhi_ncr'. Must match the ids seeded into `origin_cities`. */
+export const originSlug = (city: OriginCity): string => city.toLowerCase().replace(/\s+/g, '_');
+
+/**
+ * Per-origin transit for a set of destinations, from the `transit_routes` table.
+ *
+ * Replaces the four-value tier estimate the cards used to show, where Delhi→Agra
+ * and Delhi→Andamans both resolved to the same flat number. Not cached: unlike the
+ * catalogue it does not sit in the prompt prefix, and it is a small indexed lookup.
+ *
+ * Where several modes serve a route, the fastest is the headline — that is what a
+ * "transit time" on a card means. The cheaper, slower alternative stays in the table
+ * for the cost engine to surface separately.
+ */
+export async function getOriginTransit(
+  originCity: OriginCity,
+  destinationIds: string[]
+): Promise<Map<string, OriginTransit>> {
+  const out = new Map<string, OriginTransit>();
+  if (destinationIds.length === 0) return out;
+
+  const { data, error } = await supabaseAdmin()
+    .from('transit_routes')
+    .select('destination_id, mode, typical_cost_inr, duration_hours, is_estimate')
+    .eq('origin_city_id', originSlug(originCity))
+    .in('destination_id', destinationIds)
+    .order('duration_hours', { ascending: true });
+
+  if (error) {
+    // A missing route must not fail the whole response — the card falls back to
+    // the origin-agnostic tier, which is what it showed before this existed.
+    console.error('[transit] lookup failed:', error.message);
+    return out;
+  }
+
+  for (const row of data ?? []) {
+    if (out.has(row.destination_id)) continue; // ordered by duration, so first = fastest
+    out.set(row.destination_id, {
+      originCity,
+      mode: row.mode as OriginTransit['mode'],
+      costINR: row.typical_cost_inr,
+      durationHours: Number(row.duration_hours),
+      isEstimate: row.is_estimate,
+    });
+  }
+
+  return out;
 }
 
 export async function getCatalogue(): Promise<Catalogue> {

@@ -183,7 +183,21 @@ export default function DestinationCard({ destination, index = 0 }: DestinationC
           </button>
           {showCostSplit && (
             <div className="mt-1.5 p-2.5 rounded-lg bg-teal-50 border border-teal-200 text-[11px] text-teal-900 space-y-1 animate-in fade-in duration-150">
-              <p>✈️ Est. transit tier <strong>{effectiveTransitTier}</strong> — roughly {formatINR(transitEstimate)} round-trip{constraints.originCity ? ` from ${constraints.originCity}` : ''}</p>
+              {/* A real per-route figure when we have one, the coarse four-value
+                  tier only as a fallback. The two are visually distinct on purpose:
+                  presenting a generated band with the same confidence as a
+                  specific route would overstate what we actually know. */}
+              {destination.originTransit ? (
+                <p>
+                  ✈️ <strong>{formatINR(destination.originTransit.costINR)}</strong> round-trip from{' '}
+                  {destination.originTransit.originCity} · {destination.originTransit.durationHours}h each way
+                  {destination.originTransit.isEstimate && (
+                    <span className="text-teal-700/70"> (estimate)</span>
+                  )}
+                </p>
+              ) : (
+                <p>✈️ Est. transit tier <strong>{effectiveTransitTier}</strong> — roughly {formatINR(transitEstimate)} round-trip</p>
+              )}
               <p>🏨 Est. daily ground cost <strong>{destination.quickStats.groundCostTier}</strong> — roughly {formatINR(destination.quickStats.avgDailyCostINR)}/day</p>
               <p>{describeTransitMode(destination.quickStats.primaryMode)} via {destination.quickStats.nearestAccess}</p>
               {!constraints.originCity && (

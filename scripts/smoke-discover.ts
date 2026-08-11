@@ -29,12 +29,12 @@ interface Events {
   totalMs: number;
 }
 
-async function discover(message: string): Promise<Events> {
+async function discover(message: string, originCity?: string): Promise<Events> {
   const started = Date.now();
   const res = await fetch(`${BASE}/api/discover`, {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({ message }),
+    body: JSON.stringify({ message, originCity }),
   });
 
   if (!res.ok) throw new Error(`HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
@@ -115,6 +115,45 @@ async function main() {
   check('first event under 5s (TC-NFR-801)', (normal.firstEventMs ?? 99999) < 5000, `${normal.firstEventMs}ms`);
   check('first prose under 15s', (normal.firstDeltaMs ?? 99999) < 15000, `${normal.firstDeltaMs}ms`);
   check('answer not starved by reasoning budget', normal.textDeltas > 0 && !normal.isFallback);
+
+  // ── Origin-aware transit ───────────────────────────────────────────────────
+  console.log('\nOrigin-aware transit\n');
+
+  const fromDelhi = await discover('Show me a few places worth visiting.', 'Delhi NCR');
+  const fromChennai = await discover('Show me a few places worth visiting.', 'Chennai');
+
+  const delhiWithTransit = fromDelhi.cards.filter((c) => c.originTransit);
+  check('cards carry originTransit when origin is sent', delhiWithTransit.length === fromDelhi.cards.length, `${delhiWithTransit.length}/${fromDelhi.cards.length}`);
+  check('originTransit names the requested origin', delhiWithTransit.every((c) => c.originTransit.originCity === 'Delhi NCR'));
+  check('costs are real figures, not the 4 tier values', delhiWithTransit.every((c) => c.originTransit.costINR > 0 && ![5000, 9000, 15000, 24000].includes(c.originTransit.costINR)), delhiWithTransit.map((c) => c.originTransit.costINR).join(', '));
+  check('every route is flagged as an estimate', delhiWithTransit.every((c) => c.originTransit.isEstimate === true));
+
+  // The whole point: the same destination must cost differently from different
+  // origins. If these match, the join is silently doing nothing.
+  //
+  // The model picks freely, so two normal requests rarely overlap. An out-of-scope
+  // request always lands on the curated fallback trio, which gives the same three
+  // destinations from both origins — a deterministic comparison.
+  const OUT_OF_SCOPE = 'I want to visit Paris and Tokyo, nothing in India.';
+  const fbDelhi = await discover(OUT_OF_SCOPE, 'Delhi NCR');
+  const fbChennai = await discover(OUT_OF_SCOPE, 'Chennai');
+
+  const pairs = fbDelhi.cards
+    .map((d) => ({ d, c: fbChennai.cards.find((x) => x.id === d.id) }))
+    .filter((p) => p.c);
+
+  check('fallback gives a comparable set from both origins', pairs.length > 0, `${pairs.length} shared`);
+  check(
+    'same destination costs differently by origin',
+    pairs.length > 0 && pairs.every((p) => p.d.originTransit?.costINR !== p.c!.originTransit?.costINR || p.d.originTransit?.durationHours !== p.c!.originTransit?.durationHours),
+    pairs.map((p) => `${p.d.id}: Delhi ₹${p.d.originTransit?.costINR}/${p.d.originTransit?.durationHours}h vs Chennai ₹${p.c!.originTransit?.costINR}/${p.c!.originTransit?.durationHours}h`).join(' | ')
+  );
+
+  const noOrigin = await discover('Show me a few places worth visiting.');
+  check('no origin sent → no originTransit (falls back to tier)', noOrigin.cards.every((c) => !c.originTransit));
+
+  console.log(`  Delhi:   ${fromDelhi.cards.map((c) => `${c.id} ₹${c.originTransit?.costINR}/${c.originTransit?.durationHours}h`).join('  ')}`);
+  console.log(`  Chennai: ${fromChennai.cards.map((c) => `${c.id} ₹${c.originTransit?.costINR}/${c.originTransit?.durationHours}h`).join('  ')}`);
 
   // ── THE ADVERSARIAL GATE ───────────────────────────────────────────────────
   console.log('\nAdversarial — fictional and out-of-scope destinations\n');

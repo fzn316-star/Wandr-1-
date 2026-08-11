@@ -1,0 +1,2101 @@
+[
+  {
+    "id": "jaipur_rajasthan",
+    "name": "Jaipur",
+    "country": "India",
+    "region": "Rajasthan, North India",
+    "tagline": "The Pink City of maharajas, mirrored palaces, and bazaars bursting with color",
+    "heroImageUrl": "https://loremflickr.com/1200/800/jaipur,hawamahal",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/jaipur,palace",
+      "https://loremflickr.com/800/600/amberfort,jaipur",
+      "https://loremflickr.com/800/600/jaipur,bazaar",
+      "https://loremflickr.com/800/600/jaipur,rajasthan"
+    ],
+    "vibeTags": [
+      "Heritage & Palaces",
+      "Ancient Wonders",
+      "Shopping & Crafts",
+      "Urban Pulse"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 95,
+    "matchRationale": "A rich match for travelers craving grand Mughal-Rajput architecture, chaotic colorful markets, and photogenic forts within an easy circuit.",
+    "curiosityHook": "The entire old city was painted terracotta pink in 1876 to welcome the Prince of Wales, and a municipal law still requires shopkeepers to maintain the color today.",
+    "overviewSummary": "Jaipur is the gateway to Rajasthan — a walled city of pink sandstone facades, hilltop forts, and stepwells, anchored by the honeycombed Hawa Mahal and the astronomical instruments of Jantar Mantar. It pairs royal history with some of India's best block-print textiles, gemstone markets, and street food.",
+    "quickStats": {
+      "bestTime": "October – March",
+      "avgDailyCostUSD": 45,
+      "flightTimeHours": 16.5,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar"
+      ],
+      "tempRangeC": "10°C – 28°C",
+      "seasonalityNotes": "Summer (Apr–Jun) is brutally hot, often exceeding 40°C; monsoon (Jul–Sep) brings humidity and brief downpours."
+    },
+    "bestForTags": [
+      "First-Time India Travelers",
+      "History Buffs",
+      "Photographers",
+      "Shoppers"
+    ],
+    "whyYouWillLoveIt": [
+      "Sunrise elephant and jeep rides up to Amber Fort's mirrored Sheesh Mahal.",
+      "Bargaining for block-print textiles, blue pottery, and Kundan jewelry in Johari Bazaar.",
+      "Rooftop dinners overlooking the illuminated Hawa Mahal facade.",
+      "Day trips to nearby Abhaneri stepwell and rural Rajasthani villages."
+    ],
+    "whatToKnow": [
+      "Traffic and touts near major monuments are persistent; agree on rickshaw/taxi fares before departing.",
+      "Air quality can be poor in winter mornings due to smog; light face coverings help."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "jaipur-h1",
+        "title": "Explore Amber Fort at Dawn",
+        "description": "Beat the crowds and heat with an early climb through courtyards of mirrored mosaics and latticed windows.",
+        "category": "Culture"
+      },
+      {
+        "id": "jaipur-h2",
+        "title": "Feast on Rajasthani Thali",
+        "description": "Sample dal baati churma and laal maas at a century-old haveli restaurant.",
+        "category": "Food"
+      },
+      {
+        "id": "jaipur-h3",
+        "title": "Hot-Air Balloon over the Aravallis",
+        "description": "Drift above Jaigarh Fort and the desert scrubland at sunrise.",
+        "category": "Adventure"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Monument Camera Fee",
+        "amount": "₹200 – ₹300 per site",
+        "description": "DSLR/video cameras often incur a separate fee on top of the entry ticket at forts and palaces.",
+        "isMandatory": false
+      },
+      {
+        "title": "Composite Fort Ticket Upsell",
+        "amount": "₹1,000 (foreigner rate)",
+        "description": "Ticket counters push a combined multi-monument pass; only worth it if visiting 4+ sites in one trip.",
+        "isMandatory": false
+      }
+    ],
+    "lastVerifiedDate": "2026-07-20"
+  },
+  {
+    "id": "udaipur_rajasthan",
+    "name": "Udaipur",
+    "country": "India",
+    "region": "Rajasthan, North India",
+    "tagline": "The City of Lakes, floating marble palaces, and golden-hour boat rides",
+    "heroImageUrl": "https://loremflickr.com/1200/800/udaipur,lakepalace",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/udaipur,lake",
+      "https://loremflickr.com/800/600/citypalace,udaipur",
+      "https://loremflickr.com/800/600/udaipur,rajasthan"
+    ],
+    "vibeTags": [
+      "Romantic",
+      "Heritage & Palaces",
+      "Lakes & Water",
+      "Slow & Grounded"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 94,
+    "matchRationale": "Ideal for couples and romantics wanting palace views over still water, without the density and chaos of India's bigger cities.",
+    "curiosityHook": "The Lake Palace hotel appears to float on Lake Pichola but actually rests on a 4-acre natural island — and once hosted a James Bond car chase in Octopussy.",
+    "overviewSummary": "Udaipur wraps a chain of artificial lakes around the sprawling City Palace, with whitewashed havelis climbing the hillsides and boats gliding past at sunset. It is Rajasthan's most romantic city — smaller, calmer, and greener than Jaipur or Jodhpur.",
+    "quickStats": {
+      "bestTime": "September – March",
+      "avgDailyCostUSD": 55,
+      "flightTimeHours": 17,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar"
+      ],
+      "tempRangeC": "12°C – 30°C",
+      "seasonalityNotes": "Lake levels and views are best just after monsoon (Sep–Oct); peak winter is coolest and driest."
+    },
+    "bestForTags": [
+      "Couples",
+      "Honeymooners",
+      "Architecture Lovers",
+      "Slow Travel"
+    ],
+    "whyYouWillLoveIt": [
+      "Sunset boat cruise on Lake Pichola past the Lake Palace and Jag Mandir.",
+      "Wandering the City Palace's painted courtyards, the largest palace complex in Rajasthan.",
+      "Rooftop restaurants with unbroken views across the lake to the Aravalli hills.",
+      "Miniature painting workshops in the old city's art quarter."
+    ],
+    "whatToKnow": [
+      "Lake Pichola can run low or dry in poor monsoon years, muting the signature \"floating palace\" view — check recent water levels before booking a lake-facing room.",
+      "The old city's narrow lanes are pedestrian-heavy and poorly signed; a local guide saves real time."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "udaipur-h1",
+        "title": "Sunset Cruise on Lake Pichola",
+        "description": "Watch the City Palace glow gold as the sun drops behind the Aravalli range.",
+        "category": "Nature"
+      },
+      {
+        "id": "udaipur-h2",
+        "title": "Miniature Painting Workshop",
+        "description": "Learn traditional Mewar-style painting techniques from a family workshop passed down five generations.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "City Palace Museum Add-Ons",
+        "amount": "₹300 – ₹850",
+        "description": "Crystal Gallery and Zenana Mahal wings require separate tickets beyond the base palace entry.",
+        "isMandatory": false
+      }
+    ],
+    "lastVerifiedDate": "2026-07-18"
+  },
+  {
+    "id": "jaisalmer_rajasthan",
+    "name": "Jaisalmer",
+    "country": "India",
+    "region": "Rajasthan, North India",
+    "tagline": "A living sandstone fortress rising from the Thar Desert dunes",
+    "heroImageUrl": "https://loremflickr.com/1200/800/jaisalmer,fort",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/thardesert,camel",
+      "https://loremflickr.com/800/600/jaisalmer,rajasthan",
+      "https://loremflickr.com/800/600/sanddunes,rajasthan"
+    ],
+    "vibeTags": [
+      "Desert",
+      "Ancient Wonders",
+      "Off the Grid",
+      "Adventure"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 90,
+    "matchRationale": "Perfect for travelers seeking stark desert landscapes, camel treks under starlit skies, and a fort that is still a living town rather than a ruin.",
+    "curiosityHook": "Jaisalmer Fort is one of the few \"living forts\" in the world — roughly 3,000 people still reside within its walls, running homestays and shops inside centuries-old havelis.",
+    "overviewSummary": "Rising from the Thar Desert like a sandcastle, Jaisalmer's honey-gold fort and elaborately carved merchant havelis sit at the edge of India's westernmost dunes. It is the country's premier base for camel safaris, desert camps, and star-filled nights far from any city glow.",
+    "quickStats": {
+      "bestTime": "November – February",
+      "avgDailyCostUSD": 40,
+      "flightTimeHours": 17.5,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb"
+      ],
+      "tempRangeC": "5°C – 25°C",
+      "seasonalityNotes": "Summers are extreme desert heat (45°C+); winter nights in the dunes can drop near freezing, so pack warm layers for camel camps."
+    },
+    "bestForTags": [
+      "Adventure Seekers",
+      "Stargazers",
+      "Off-the-Grid Travelers",
+      "Photographers"
+    ],
+    "whyYouWillLoveIt": [
+      "Overnight camel safaris into the Sam or Khuri dunes, sleeping under some of India's darkest skies.",
+      "Wandering Patwon Ki Haveli's intricately carved sandstone facades.",
+      "Folk music and fire dance performances at desert camps.",
+      "Exploring the fort's Jain temples, carved from the same golden stone."
+    ],
+    "whatToKnow": [
+      "It is a remote outpost — the nearest major airport (Jodhpur) is a 5-hour drive, or fly directly into Jaisalmer's small seasonal airport with limited routes.",
+      "Desert camp quality varies hugely; budget camps can mean thin bedding and no attached bathroom — read recent reviews carefully."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "jaisalmer-h1",
+        "title": "Camel Trek to Sam Dunes at Sunset",
+        "description": "Ride out past the last scrub trees into rolling sand as the sky turns orange.",
+        "category": "Adventure"
+      },
+      {
+        "id": "jaisalmer-h2",
+        "title": "Haveli Architecture Walk",
+        "description": "Trace the honeycomb stone lattices of Patwon Ki Haveli, built by five merchant brothers.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Fort Living Heritage Fee",
+        "amount": "₹100 – ₹200",
+        "description": "A conservation surcharge added at some fort-interior sites to fund structural preservation.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-06-30"
+  },
+  {
+    "id": "goa_beaches",
+    "name": "Goa",
+    "country": "India",
+    "region": "Konkan Coast, West India",
+    "tagline": "Portuguese-era churches, palm-lined beaches, and India's most laid-back nightlife",
+    "heroImageUrl": "https://loremflickr.com/1200/800/goa,beach",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/goa,india",
+      "https://loremflickr.com/800/600/palolembeach,goa",
+      "https://loremflickr.com/800/600/goa,church",
+      "https://loremflickr.com/800/600/goa,sunset"
+    ],
+    "vibeTags": [
+      "Sun & Stillness",
+      "Coastal Charm",
+      "Nightlife",
+      "Culinary"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 93,
+    "matchRationale": "Great for travelers wanting relaxed beach time blended with Portuguese colonial charm, seafood, and a flexible pace from party to peaceful.",
+    "curiosityHook": "Goa was a Portuguese colony for 451 years — longer than British rule over the rest of India — which is why its churches, surnames, and feni liquor feel closer to Lisbon than Delhi.",
+    "overviewSummary": "Goa strings 100km of beaches along India's west coast, from the party strips of Baga and Anjuna in the north to the quiet coconut-grove coves of Palolem and Agonda in the south. Whitewashed Portuguese churches, spice plantations, and fresh Goan-Portuguese seafood curries round out the appeal.",
+    "quickStats": {
+      "bestTime": "November – February",
+      "avgDailyCostUSD": 50,
+      "flightTimeHours": 17,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb"
+      ],
+      "tempRangeC": "20°C – 32°C",
+      "seasonalityNotes": "Monsoon (Jun–Sep) shuts down most beach shacks; peak season (Dec–Jan) brings the best weather but also the biggest crowds and prices."
+    },
+    "bestForTags": [
+      "Beach Lovers",
+      "Groups of Friends",
+      "Digital Nomads",
+      "Foodies"
+    ],
+    "whyYouWillLoveIt": [
+      "South Goa's quiet coves like Agonda and Patnem for slower, uncrowded beach days.",
+      "Fresh grilled kingfish and prawn balchão at open-air beach shacks.",
+      "Wandering the Latin Quarter (Fontainhas) in Panaji, with its pastel colonial houses.",
+      "Sunday flea markets and live music in Anjuna for a livelier north-Goa night out."
+    ],
+    "whatToKnow": [
+      "North and south Goa have very different personalities — north is louder and more commercial, south is calmer and more upscale; pick based on your vibe before booking.",
+      "Rip currents are a real hazard on several beaches; swim only where flagged lifeguards are present."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "goa-h1",
+        "title": "Sunset at Chapora Fort",
+        "description": "Watch the Arabian Sea turn gold from the laterite ramparts made famous by Bollywood.",
+        "category": "Nature"
+      },
+      {
+        "id": "goa-h2",
+        "title": "Spice Plantation Lunch Tour",
+        "description": "Walk through cardamom and pepper groves before a traditional banana-leaf Goan thali.",
+        "category": "Food"
+      },
+      {
+        "id": "goa-h3",
+        "title": "Kayaking Goa's Mangroves",
+        "description": "Paddle quiet backwater channels near Chorao Island spotting kingfishers and mudskippers.",
+        "category": "Adventure"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Beach Shack Sunbed \"Minimum Order\"",
+        "amount": "₹500 – ₹1,500",
+        "description": "Free sunbeds usually require a minimum food/drink spend at the attached shack.",
+        "isMandatory": false
+      },
+      {
+        "title": "Scooter Rental Deposit",
+        "amount": "₹2,000 – ₹5,000 or passport hold",
+        "description": "Most rental shops hold cash or ID as deposit; always photograph existing scratches first.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-07-25"
+  },
+  {
+    "id": "alleppey_kerala",
+    "name": "Alleppey (Alappuzha) Backwaters",
+    "country": "India",
+    "region": "Kerala, South India",
+    "tagline": "Drifting houseboats through palm-fringed canals and rice-paddy villages",
+    "heroImageUrl": "https://loremflickr.com/1200/800/keralabackwaters,houseboat",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/alleppey,kerala",
+      "https://loremflickr.com/800/600/backwaters,kerala",
+      "https://loremflickr.com/800/600/kerala,canal"
+    ],
+    "vibeTags": [
+      "Slow & Grounded",
+      "Nature",
+      "Waterways",
+      "Unplugged"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 92,
+    "matchRationale": "Suited to travelers wanting total unplugging on water, fresh seafood, and a gentle, unhurried pace through rural Kerala.",
+    "curiosityHook": "Many houseboats plying the backwaters today are converted \"kettuvallam\" — century-old rice barges once used to haul grain, rebuilt entirely without a single iron nail.",
+    "overviewSummary": "Alleppey is the launch point for Kerala's famed backwaters — a maze of rivers, canals, and lagoons lined with coconut palms and rice paddies below sea level. A night on a traditional kettuvallam houseboat, drifting past village life and toddy shops, is one of South India's signature slow-travel experiences.",
+    "quickStats": {
+      "bestTime": "November – February",
+      "avgDailyCostUSD": 60,
+      "flightTimeHours": 18,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb"
+      ],
+      "tempRangeC": "23°C – 32°C",
+      "seasonalityNotes": "Monsoon (Jun–Sep) is heavy but lush and green; post-monsoon (Oct–Nov) also has the famous Nehru Trophy snake boat race."
+    },
+    "bestForTags": [
+      "Couples",
+      "Nature Lovers",
+      "Slow Travel",
+      "Foodies"
+    ],
+    "whyYouWillLoveIt": [
+      "An overnight houseboat cruise with a private chef cooking fresh Kerala fish curry on board.",
+      "Sunrise over still water as fishermen cast Chinese fishing nets along the banks.",
+      "Village canoe tours through narrower canals houseboats can't reach.",
+      "Ayurvedic massage and wellness treatments at backwater-side resorts."
+    ],
+    "whatToKnow": [
+      "Houseboat quality ranges enormously from luxury to barely-floating; book through a vetted operator rather than the cheapest tout at the jetty.",
+      "Mosquitoes are persistent near the water at dusk — pack strong repellent."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "alleppey-h1",
+        "title": "Overnight Kettuvallam Houseboat",
+        "description": "Drift past paddy fields and palm groves as the onboard cook prepares a fresh fish curry lunch.",
+        "category": "Nature"
+      },
+      {
+        "id": "alleppey-h2",
+        "title": "Village Canoe Tour",
+        "description": "Paddle narrow canals into a working rural village inaccessible to larger boats.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Houseboat Fuel & AC Surcharge",
+        "amount": "₹1,000 – ₹2,500",
+        "description": "Some operators quote a base rate and add fuel or air-conditioning fees separately — confirm an all-inclusive price upfront.",
+        "isMandatory": false
+      }
+    ],
+    "lastVerifiedDate": "2026-07-10"
+  },
+  {
+    "id": "munnar_kerala",
+    "name": "Munnar",
+    "country": "India",
+    "region": "Kerala, South India",
+    "tagline": "Rolling tea-carpeted hills, misty peaks, and cool mountain air",
+    "heroImageUrl": "https://loremflickr.com/1200/800/munnar,teaplantation",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/munnar,kerala",
+      "https://loremflickr.com/800/600/teagarden,india",
+      "https://loremflickr.com/800/600/westernghats,kerala"
+    ],
+    "vibeTags": [
+      "Slow & Grounded",
+      "Nature",
+      "Hill Station",
+      "Wellness"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 88,
+    "matchRationale": "A strong pick for travelers wanting cool climate, green mountain views, and a gentler pace after the heat and density of India's cities.",
+    "curiosityHook": "The neelakurinji flower carpets Munnar's hills in a rare violet-blue bloom — but only once every 12 years, next expected in 2030.",
+    "overviewSummary": "Munnar sits at over 1,600 meters in Kerala's Western Ghats, where British colonists once planted endless terraces of tea that still blanket the hillsides today. Mist-wrapped viewpoints, spice plantations, and Eravikulam National Park (home to the endangered Nilgiri tahr) make it South India's favorite hill retreat.",
+    "quickStats": {
+      "bestTime": "September – May",
+      "avgDailyCostUSD": 45,
+      "flightTimeHours": 18,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar"
+      ],
+      "tempRangeC": "10°C – 25°C",
+      "seasonalityNotes": "Pleasant year-round given its elevation; monsoon (Jun–Aug) brings mist and heavy rain that can close some trekking routes."
+    },
+    "bestForTags": [
+      "Nature Lovers",
+      "Honeymooners",
+      "Wellness Travelers",
+      "Trekkers"
+    ],
+    "whyYouWillLoveIt": [
+      "Walking between manicured tea terraces at Kolukkumalai, one of the world's highest tea estates.",
+      "Spotting Nilgiri tahr and endemic wildlife in Eravikulam National Park.",
+      "Cool evenings around a fireplace after months of tropical heat elsewhere in India.",
+      "Fresh-brewed estate tea tastings direct from the source."
+    ],
+    "whatToKnow": [
+      "Roads to viewpoints are winding mountain switchbacks; those prone to motion sickness should medicate before the drive up from Kochi.",
+      "Peak season (Dec–Jan, and Apr–May school holidays) sees heavy domestic tourist traffic and slow-moving convoys on single-lane roads."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "munnar-h1",
+        "title": "Sunrise at Kolukkumalai Tea Estate",
+        "description": "Ride a jeep up rutted mountain tracks before dawn to watch sunrise over the world's highest organic tea garden.",
+        "category": "Nature"
+      },
+      {
+        "id": "munnar-h2",
+        "title": "Eravikulam National Park Trek",
+        "description": "Walk grassy shola-forest trails in search of the endangered Nilgiri tahr.",
+        "category": "Adventure"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "National Park Jeep Transfer",
+        "amount": "₹250 – ₹400 per person",
+        "description": "Private vehicles are barred beyond the entrance; a mandatory shared eco-shuttle covers the last stretch.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-06-15"
+  },
+  {
+    "id": "varanasi_up",
+    "name": "Varanasi",
+    "country": "India",
+    "region": "Uttar Pradesh, North India",
+    "tagline": "Sacred Ganges ghats, ancient temples, and the pulse of living Hindu ritual",
+    "heroImageUrl": "https://loremflickr.com/1200/800/varanasi,ganges",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/varanasi,ghats",
+      "https://loremflickr.com/800/600/gangesriver,india",
+      "https://loremflickr.com/800/600/varanasi,india"
+    ],
+    "vibeTags": [
+      "Spiritual",
+      "Ancient Wonders",
+      "Culture",
+      "Urban Pulse"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 89,
+    "matchRationale": "Best suited for travelers seeking profound cultural immersion and spiritual intensity rather than comfort or polish.",
+    "curiosityHook": "Varanasi is considered one of the oldest continuously inhabited cities on Earth, with religious life on its riverbanks unbroken for over 3,000 years.",
+    "overviewSummary": "Varanasi is India's spiritual epicenter — a labyrinthine old city of temples and narrow lanes tumbling down to nearly 90 stone ghats along the Ganges. Dawn boat rides past bathing pilgrims and evening Ganga Aarti fire ceremonies make it one of the most intense, unfiltered places in the country.",
+    "quickStats": {
+      "bestTime": "October – March",
+      "avgDailyCostUSD": 35,
+      "flightTimeHours": 17,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar"
+      ],
+      "tempRangeC": "8°C – 27°C",
+      "seasonalityNotes": "Summer heat is severe and humid; winter mornings can be foggy, delaying sunrise boat rides."
+    },
+    "bestForTags": [
+      "Spiritual Seekers",
+      "Photographers",
+      "Culture Immersion",
+      "Solo Travelers"
+    ],
+    "whyYouWillLoveIt": [
+      "A silent dawn rowboat ride past the ghats as pilgrims perform sunrise rituals.",
+      "The nightly Ganga Aarti at Dashashwamedh Ghat — fire, chanting, and drums on the riverbank.",
+      "Wandering the labyrinthine old city lanes among temples, sadhus, and silk weavers.",
+      "Learning about Varanasi's 800-year Banarasi silk weaving tradition firsthand."
+    ],
+    "whatToKnow": [
+      "Cremation ghats are active, ongoing funeral sites — approach with quiet respect and never photograph rites without explicit permission.",
+      "The old city's ghats and lanes are intense: crowded, chaotic, and occasionally unsanitary; it rewards travelers comfortable with sensory overload."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "varanasi-h1",
+        "title": "Sunrise Boat Ride on the Ganges",
+        "description": "Drift silently past stone ghats as the city wakes for morning prayer and ritual bathing.",
+        "category": "Culture"
+      },
+      {
+        "id": "varanasi-h2",
+        "title": "Witness the Ganga Aarti",
+        "description": "Watch priests perform a synchronized fire ceremony to the river each evening at Dashashwamedh Ghat.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Boatman Negotiated Fare",
+        "amount": "₹200 – ₹800 per boat",
+        "description": "Rowboat prices are unmetered and negotiated on the spot; agree on the full route and price before boarding.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-07-05"
+  },
+  {
+    "id": "agra_up",
+    "name": "Agra",
+    "country": "India",
+    "region": "Uttar Pradesh, North India",
+    "tagline": "Home to the Taj Mahal, the world's most famous monument to love",
+    "heroImageUrl": "https://loremflickr.com/1200/800/tajmahal,agra",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/agrafort,india",
+      "https://loremflickr.com/800/600/tajmahal,india",
+      "https://loremflickr.com/800/600/agra,india"
+    ],
+    "vibeTags": [
+      "Ancient Wonders",
+      "Heritage & Palaces",
+      "Romantic",
+      "Culture"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 91,
+    "matchRationale": "A near-essential stop for first-time India visitors and architecture lovers wanting to see one of the Seven Wonders of the World in person.",
+    "curiosityHook": "The Taj Mahal's white marble subtly changes color throughout the day — pink at dawn, blazing white at noon, and golden under a full moon.",
+    "overviewSummary": "Agra was the Mughal Empire's capital, and it shows: the ivory-white Taj Mahal, the red sandstone Agra Fort, and the abandoned city of Fatehpur Sikri all sit within an hour of each other. Built by Emperor Shah Jahan as a tomb for his wife Mumtaz Mahal, the Taj remains India's single most iconic sight.",
+    "quickStats": {
+      "bestTime": "October – March",
+      "avgDailyCostUSD": 40,
+      "flightTimeHours": 16.5,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar"
+      ],
+      "tempRangeC": "7°C – 28°C",
+      "seasonalityNotes": "Summer heat regularly exceeds 40°C; winter fog can delay sunrise visits and flights in December–January."
+    },
+    "bestForTags": [
+      "First-Time India Travelers",
+      "History Buffs",
+      "Couples",
+      "Day-Trippers from Delhi"
+    ],
+    "whyYouWillLoveIt": [
+      "Watching sunrise light hit the Taj Mahal's marble dome from the east gate at opening time.",
+      "Exploring Agra Fort's red sandstone ramparts, where Shah Jahan was later imprisoned by his own son.",
+      "A half-day trip to Fatehpur Sikri, an entire abandoned Mughal capital frozen in red stone.",
+      "Marble inlay (pietra dura) workshops still run by descendants of the original Taj Mahal craftsmen."
+    ],
+    "whatToKnow": [
+      "The Taj closes on Fridays for prayer — plan visit days accordingly.",
+      "Touts aggressively pushing \"marble emporiums\" and guides near the entrance gates are relentless; pre-booking a licensed guide avoids the hassle."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "agra-h1",
+        "title": "Sunrise at the Taj Mahal",
+        "description": "Enter at opening time to see the marble mausoleum glow soft pink in the early light with minimal crowds.",
+        "category": "Culture"
+      },
+      {
+        "id": "agra-h2",
+        "title": "Fatehpur Sikri Day Trip",
+        "description": "Walk the deserted red-sandstone streets of a Mughal capital abandoned after just 15 years.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Taj Mahal Mausoleum Entry Add-On",
+        "amount": "₹200",
+        "description": "Entering the inner marble mausoleum itself requires a separate ticket beyond general grounds admission.",
+        "isMandatory": false
+      },
+      {
+        "title": "Shoe Cover / Cloth Bootie Fee",
+        "amount": "₹10 – ₹20",
+        "description": "Required cloth shoe covers to protect the marble platform are sold near the entrance.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-07-22"
+  },
+  {
+    "id": "rishikesh_uk",
+    "name": "Rishikesh",
+    "country": "India",
+    "region": "Uttarakhand, North India",
+    "tagline": "The Yoga Capital of the World, where the Ganges rushes out of the Himalayas",
+    "heroImageUrl": "https://loremflickr.com/1200/800/rishikesh,ganges",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/rishikesh,yoga",
+      "https://loremflickr.com/800/600/lakshmanjhula,rishikesh",
+      "https://loremflickr.com/800/600/rishikesh,india"
+    ],
+    "vibeTags": [
+      "Spiritual",
+      "Wellness",
+      "Adventure",
+      "Slow & Grounded"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 90,
+    "matchRationale": "A great fit for travelers wanting to combine yoga, meditation, and river adventure sports in a compact, foothill town.",
+    "curiosityHook": "The Beatles wrote most of the White Album while staying at an ashram here in 1968 — the abandoned \"Beatles Ashram\" is now a graffiti-covered art site open to visitors.",
+    "overviewSummary": "Rishikesh sits where the Ganges rushes turquoise and cold out of the Himalayan foothills, lined with ashrams, yoga schools, and suspension bridges. It draws both spiritual seekers pursuing meditation retreats and adrenaline travelers chasing Grade III-IV whitewater rapids.",
+    "quickStats": {
+      "bestTime": "September – November, February – April",
+      "avgDailyCostUSD": 35,
+      "flightTimeHours": 17.5,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Feb",
+        "Mar",
+        "Apr",
+        "Sep",
+        "Oct",
+        "Nov"
+      ],
+      "tempRangeC": "8°C – 30°C",
+      "seasonalityNotes": "Monsoon (Jun–Aug) raises the river and suspends rafting for safety; winter (Dec–Jan) is chilly but clear."
+    },
+    "bestForTags": [
+      "Yoga & Wellness Travelers",
+      "Adventure Seekers",
+      "Solo Travelers",
+      "Budget Backpackers"
+    ],
+    "whyYouWillLoveIt": [
+      "Sunrise yoga and meditation sessions with views over the rushing Ganges.",
+      "White-water rafting through Grade III-IV rapids between Shivpuri and Rishikesh.",
+      "Crossing the iconic Lakshman Jhula suspension bridge at golden hour.",
+      "Evening Ganga Aarti at Triveni Ghat, smaller and more intimate than Varanasi's."
+    ],
+    "whatToKnow": [
+      "Rishikesh is officially a vegetarian, alcohol-free town out of religious respect — plan accordingly if that matters to your trip.",
+      "Quality of yoga teacher-training programs varies widely; verify Yoga Alliance accreditation before committing to a multi-week course."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "rishikesh-h1",
+        "title": "Ganges White-Water Rafting",
+        "description": "Paddle through cold Himalayan rapids with snow-fed peaks visible upstream.",
+        "category": "Adventure"
+      },
+      {
+        "id": "rishikesh-h2",
+        "title": "Sunrise Yoga by the River",
+        "description": "Join an open-air session led by resident teachers as the fog lifts off the water.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Rafting Safety Gear Rental",
+        "amount": "₹100 – ₹300",
+        "description": "Some budget rafting operators charge separately for helmets and life jackets not included in the base price.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-07-12"
+  },
+  {
+    "id": "leh_ladakh",
+    "name": "Leh-Ladakh",
+    "country": "India",
+    "region": "Ladakh, North India",
+    "tagline": "A high-altitude desert of Buddhist monasteries, turquoise lakes, and lunar mountain passes",
+    "heroImageUrl": "https://loremflickr.com/1200/800/ladakh,mountains",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/pangonglake,ladakh",
+      "https://loremflickr.com/800/600/leh,monastery",
+      "https://loremflickr.com/800/600/ladakh,india"
+    ],
+    "vibeTags": [
+      "Off the Grid",
+      "Wild & Untamed",
+      "Adventure",
+      "Spiritual"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 96,
+    "matchRationale": "Excellent for travelers wanting truly remote, dramatic high-altitude landscapes and Tibetan Buddhist culture unlike anywhere else in India.",
+    "curiosityHook": "Pangong Tso lake sits at 4,225 meters and stretches 134km, with two-thirds of its length lying across the border in Tibet, China.",
+    "overviewSummary": "Ladakh is a high-altitude cold desert wedged between the Himalaya and Karakoram ranges, closer in culture and landscape to Tibet than the rest of India. Whitewashed Buddhist monasteries cling to cliffsides above barren moonscapes, and roads climb over some of the world's highest motorable passes to reach lakes of impossible blue.",
+    "quickStats": {
+      "bestTime": "June – September",
+      "avgDailyCostUSD": 55,
+      "flightTimeHours": 18,
+      "transitCostTier": "$$$$",
+      "groundCostTier": "$$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep"
+      ],
+      "tempRangeC": "0°C – 25°C",
+      "seasonalityNotes": "The only road access window is roughly May–October; the region is snowbound and largely cut off by road the rest of the year."
+    },
+    "bestForTags": [
+      "Adventure Seekers",
+      "Photographers",
+      "Trekkers",
+      "Off-the-Grid Travelers"
+    ],
+    "whyYouWillLoveIt": [
+      "Camping beside the shifting blues of Pangong Tso at sunset.",
+      "Crossing Khardung La, one of the world's highest motorable mountain passes.",
+      "Visiting 900-year-old cliffside monasteries like Thiksey and Diskit.",
+      "Star-filled night skies with almost zero light pollution across the Nubra Valley."
+    ],
+    "whatToKnow": [
+      "Altitude sickness is a real risk above 3,500m — plan at least 1-2 acclimatization days in Leh before any high-pass travel, and avoid alcohol/exertion on arrival.",
+      "Inner Line Permits are required for several areas (Nubra, Pangong, Tso Moriri) and must be arranged in Leh in advance."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "ladakh-h1",
+        "title": "Overnight Camp at Pangong Tso",
+        "description": "Watch the lake shift from turquoise to indigo to black under an alpine night sky.",
+        "category": "Nature"
+      },
+      {
+        "id": "ladakh-h2",
+        "title": "Thiksey Monastery Morning Prayers",
+        "description": "Sit in on dawn chanting rituals inside a 12-story monastery modeled on Lhasa's Potala Palace.",
+        "category": "Culture"
+      },
+      {
+        "id": "ladakh-h3",
+        "title": "Cross Khardung La Pass",
+        "description": "Drive one of the world's highest motorable roads en route to the Nubra Valley's sand dunes.",
+        "category": "Adventure"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Inner Line Permit Fees",
+        "amount": "₹600 – ₹900 per person, per region",
+        "description": "Foreign and domestic travelers alike must pay permit fees for restricted border-adjacent areas.",
+        "isMandatory": true
+      },
+      {
+        "title": "Environmental / Wildlife Fee at Pangong & Nubra",
+        "amount": "₹100 – ₹400",
+        "description": "Small conservation fees collected at checkpoints entering protected lake and valley areas.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-06-20"
+  },
+  {
+    "id": "manali_hp",
+    "name": "Manali",
+    "country": "India",
+    "region": "Himachal Pradesh, North India",
+    "tagline": "Pine-forested valleys, snow passes, and Himalayan adventure sports",
+    "heroImageUrl": "https://loremflickr.com/1200/800/manali,himalayas",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/manali,india",
+      "https://loremflickr.com/800/600/solangvalley,himachal",
+      "https://loremflickr.com/800/600/himachalpradesh,mountains"
+    ],
+    "vibeTags": [
+      "Wild & Untamed",
+      "Adventure",
+      "Hill Station",
+      "Nature"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 87,
+    "matchRationale": "Great for adventure travelers and groups wanting snow, trekking, and paragliding within a scenic and accessible Himalayan valley.",
+    "curiosityHook": "The Rohtang Pass above Manali translates roughly to \"pile of corpses,\" named for the travelers historically lost crossing it in sudden blizzards.",
+    "overviewSummary": "Manali sits in the Kullu Valley at the foot of the snow-capped Pir Panjal range, a longtime backpacker and honeymoon favorite that has grown into North India's adventure-sports hub. Paragliding over Solang Valley, river rafting on the Beas, and high mountain passes toward Ladakh all launch from here.",
+    "quickStats": {
+      "bestTime": "March – June, October – February (for snow)",
+      "avgDailyCostUSD": 40,
+      "flightTimeHours": 17,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "tempRangeC": "-2°C – 25°C",
+      "seasonalityNotes": "Heavy snow closes higher passes Dec–Mar; monsoon (Jul–Aug) brings landslide risk on mountain roads."
+    },
+    "bestForTags": [
+      "Adventure Seekers",
+      "Groups of Friends",
+      "Honeymooners",
+      "Trekkers"
+    ],
+    "whyYouWillLoveIt": [
+      "Paragliding over Solang Valley with snow peaks as a backdrop.",
+      "Rafting the Beas River's cold, fast rapids in spring snowmelt season.",
+      "Road-tripping toward Rohtang Pass or onward to Spiti through dramatic alpine scenery.",
+      "Cozy café culture in Old Manali with wood-fired pizza and mountain views."
+    ],
+    "whatToKnow": [
+      "Peak season (May–June and Dec–Jan snow season) brings heavy Indian domestic tourist traffic and major road congestion into town.",
+      "Rohtang Pass requires an online permit with a daily vehicle quota — book ahead in high season."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "manali-h1",
+        "title": "Paragliding over Solang Valley",
+        "description": "Launch from a ridge and glide above pine forest and snowfields with an instructor.",
+        "category": "Adventure"
+      },
+      {
+        "id": "manali-h2",
+        "title": "Old Manali Café Hopping",
+        "description": "Wander riverside lanes of wood-beam cafés serving Himachali and Israeli-influenced fusion food.",
+        "category": "Food"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Rohtang Pass Permit",
+        "amount": "₹550 – ₹800 per vehicle",
+        "description": "A mandatory online eco-permit with limited daily quota is required to drive up to the pass.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-07-01"
+  },
+  {
+    "id": "spiti_valley_hp",
+    "name": "Spiti Valley",
+    "country": "India",
+    "region": "Himachal Pradesh, North India",
+    "tagline": "A stark cold-desert valley of ancient monasteries and lunar landscapes",
+    "heroImageUrl": "https://loremflickr.com/1200/800/spitivalley,mountains",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/spiti,himachal",
+      "https://loremflickr.com/800/600/keymonastery,spiti",
+      "https://loremflickr.com/800/600/coldDesert,india"
+    ],
+    "vibeTags": [
+      "Off the Grid",
+      "Wild & Untamed",
+      "Spiritual",
+      "Adventure"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 91,
+    "matchRationale": "A strong fit for seasoned travelers seeking remote, rugged high-altitude terrain and centuries-old monastic culture with minimal crowds.",
+    "curiosityHook": "Key Monastery has survived attacks, fires, and earthquakes since the 11th century, and its labyrinthine architecture stacks like a fortress against the valley's cliffside.",
+    "overviewSummary": "Spiti (\"the middle land,\" between Tibet and India) is a remote high-altitude valley of bare ochre mountains, whitewashed monasteries, and villages among the highest inhabited settlements on Earth. It offers Ladakh-like scenery and Buddhist culture with a fraction of the visitors, reached via one of the most scenic and challenging mountain roads in India.",
+    "quickStats": {
+      "bestTime": "June – September",
+      "avgDailyCostUSD": 35,
+      "flightTimeHours": 17,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep"
+      ],
+      "tempRangeC": "-5°C – 20°C",
+      "seasonalityNotes": "The valley is snowbound and largely inaccessible by road from November through May."
+    },
+    "bestForTags": [
+      "Off-the-Grid Travelers",
+      "Photographers",
+      "Backpackers",
+      "Spiritual Seekers"
+    ],
+    "whyYouWillLoveIt": [
+      "Visiting Key Monastery, perched dramatically on a hilltop above the Spiti River.",
+      "Staying in family homestays in Langza or Komic, among the highest villages in the world.",
+      "Near-total silence and star-drenched night skies with almost no light pollution.",
+      "Spotting a 100-million-year-old marine fossil bed in the village of Langza, once an ancient seabed."
+    ],
+    "whatToKnow": [
+      "Mobile network and ATMs are extremely limited beyond Kaza; carry sufficient cash and download offline maps in advance.",
+      "Roads are narrow, unpaved in stretches, and prone to landslides — journeys take far longer than map distances suggest."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "spiti-h1",
+        "title": "Key Monastery Visit",
+        "description": "Explore centuries-old prayer halls and meet resident monks at Spiti's largest monastery.",
+        "category": "Culture"
+      },
+      {
+        "id": "spiti-h2",
+        "title": "Homestay in Langza Village",
+        "description": "Sleep in a mud-brick home over 4,400m, beneath a giant Buddha statue overlooking the valley.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Inner Line Permit (border-adjacent villages)",
+        "amount": "₹300 – ₹600",
+        "description": "Some villages near the Tibet border require a permit arranged in Kaza.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-06-25"
+  },
+  {
+    "id": "darjeeling_wb",
+    "name": "Darjeeling",
+    "country": "India",
+    "region": "West Bengal, East India",
+    "tagline": "Misty tea estates and a toy train climbing toward Kanchenjunga",
+    "heroImageUrl": "https://loremflickr.com/1200/800/darjeeling,teaplantation",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/darjeeling,india",
+      "https://loremflickr.com/800/600/toytrain,darjeeling",
+      "https://loremflickr.com/800/600/kanchenjunga,himalaya"
+    ],
+    "vibeTags": [
+      "Hill Station",
+      "Slow & Grounded",
+      "Nature",
+      "Culture"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 86,
+    "matchRationale": "Good for travelers wanting cool mountain air, colonial-era charm, and world-famous tea without the remoteness of the high Himalaya.",
+    "curiosityHook": "The Darjeeling Himalayan Railway's \"Toy Train\" is a UNESCO World Heritage Site — its narrow-gauge steam locomotives have climbed the same 2-foot tracks since 1881.",
+    "overviewSummary": "Darjeeling rose to fame as a British colonial hill station and never lost its charm — steep tea estate terraces wrap the hillsides, the UNESCO-listed Toy Train chugs through town, and on clear mornings Kanchenjunga, the world's third-highest peak, dominates the skyline.",
+    "quickStats": {
+      "bestTime": "March – May, October – November",
+      "avgDailyCostUSD": 35,
+      "flightTimeHours": 18,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Mar",
+        "Apr",
+        "May",
+        "Oct",
+        "Nov"
+      ],
+      "tempRangeC": "5°C – 20°C",
+      "seasonalityNotes": "Monsoon (Jun–Sep) brings heavy fog and rain that can obscure mountain views for days at a time."
+    },
+    "bestForTags": [
+      "Tea Lovers",
+      "Slow Travel",
+      "Photographers",
+      "Families"
+    ],
+    "whyYouWillLoveIt": [
+      "Sunrise views of Kanchenjunga from Tiger Hill on a clear morning.",
+      "A ride on the UNESCO-listed Darjeeling Himalayan Railway toy train.",
+      "Walking through terraced tea gardens like Happy Valley, with tastings straight from the estate.",
+      "Browsing Tibetan refugee handicraft markets, a legacy of the region's Himalayan border history."
+    ],
+    "whatToKnow": [
+      "Mountain views of Kanchenjunga are weather-dependent and often obscured by cloud, even in the dry season — build in 2+ nights to improve your odds of a clear morning.",
+      "The town's steep, narrow roads mean frequent traffic jams; walking is often faster than driving short distances."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "darjeeling-h1",
+        "title": "Sunrise at Tiger Hill",
+        "description": "Watch first light hit Kanchenjunga's snowfields from one of the best Himalayan viewpoints in India.",
+        "category": "Nature"
+      },
+      {
+        "id": "darjeeling-h2",
+        "title": "Toy Train to Ghum",
+        "description": "Ride the historic narrow-gauge steam railway through switchbacks and tea gardens.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Tiger Hill Viewpoint Vehicle Fee",
+        "amount": "₹300 – ₹600 shared jeep",
+        "description": "A pre-dawn shared jeep is typically required to reach the viewpoint in time for sunrise.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-06-10"
+  },
+  {
+    "id": "gangtok_sikkim",
+    "name": "Gangtok",
+    "country": "India",
+    "region": "Sikkim, East India",
+    "tagline": "A tidy Himalayan capital between Buddhist monasteries and Kanchenjunga viewpoints",
+    "heroImageUrl": "https://loremflickr.com/1200/800/gangtok,sikkim",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/sikkim,himalaya",
+      "https://loremflickr.com/800/600/rumtekmonastery,sikkim",
+      "https://loremflickr.com/800/600/gangtok,india"
+    ],
+    "vibeTags": [
+      "Off the Grid",
+      "Spiritual",
+      "Nature",
+      "Hill Station"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 85,
+    "matchRationale": "Fits travelers wanting an easygoing, clean, and orderly Himalayan base with monastery culture and access to high-altitude lakes.",
+    "curiosityHook": "Sikkim was an independent kingdom until 1975 and remains India's only fully organic-farming state, banning chemical fertilizers and pesticides statewide.",
+    "overviewSummary": "Gangtok is the compact, walkable capital of Sikkim, a former Himalayan kingdom tucked between Nepal, Tibet, and Bhutan. It serves as the base for visiting glacial lakes like Tsomgo, the golden-roofed Rumtek Monastery, and — on clear days — sweeping views of Kanchenjunga.",
+    "quickStats": {
+      "bestTime": "March – May, October – November",
+      "avgDailyCostUSD": 40,
+      "flightTimeHours": 18.5,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Mar",
+        "Apr",
+        "May",
+        "Oct",
+        "Nov"
+      ],
+      "tempRangeC": "5°C – 22°C",
+      "seasonalityNotes": "Monsoon (Jun–Sep) brings landslide risk on mountain roads; winter (Dec–Feb) can see snow at higher altitudes like Tsomgo Lake."
+    },
+    "bestForTags": [
+      "Nature Lovers",
+      "Spiritual Seekers",
+      "Families",
+      "First-Time Himalaya Travelers"
+    ],
+    "whyYouWillLoveIt": [
+      "Day trip to the frozen-blue glacial Tsomgo Lake at nearly 4,000m.",
+      "Visiting Rumtek Monastery, one of the largest and most important Tibetan Buddhist monasteries outside Tibet.",
+      "Sikkimese-Nepali momo and thukpa at MG Marg's pedestrian-only night market street.",
+      "Clean, orderly streets and genuinely warm hospitality that stand out even within India."
+    ],
+    "whatToKnow": [
+      "A Protected Area Permit is required for excursions to Tsomgo Lake and Nathula Pass, arranged through a registered local travel agent.",
+      "Roads to high-altitude viewpoints can close on short notice due to weather or border security, especially near Nathula."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "gangtok-h1",
+        "title": "Tsomgo Lake Day Trip",
+        "description": "Drive up to a glacial lake ringed by prayer flags at nearly 4,000 meters elevation.",
+        "category": "Nature"
+      },
+      {
+        "id": "gangtok-h2",
+        "title": "Rumtek Monastery Visit",
+        "description": "Tour the seat-in-exile of the Karmapa, filled with gold statues and vivid Tibetan murals.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Protected Area Permit (Tsomgo / Nathula)",
+        "amount": "₹500 – ₹700 per person",
+        "description": "Required permit processed by a local agent, usually bundled into day-trip tour pricing.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-06-05"
+  },
+  {
+    "id": "hampi_karnataka",
+    "name": "Hampi",
+    "country": "India",
+    "region": "Karnataka, South India",
+    "tagline": "Boulder-strewn ruins of a vanished 14th-century empire",
+    "heroImageUrl": "https://loremflickr.com/1200/800/hampi,ruins",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/hampi,karnataka",
+      "https://loremflickr.com/800/600/virupakshatemple,hampi",
+      "https://loremflickr.com/800/600/hampi,india"
+    ],
+    "vibeTags": [
+      "Ancient Wonders",
+      "Off the Grid",
+      "Adventure",
+      "Culture"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 89,
+    "matchRationale": "A great match for travelers who want dramatic ancient ruins in a surreal boulder landscape, with a relaxed backpacker atmosphere.",
+    "curiosityHook": "Hampi was once the second-largest city on Earth in the 16th century, with a population rivaling contemporary London, before it was sacked and abandoned within a matter of months.",
+    "overviewSummary": "Hampi's ruins sprawl across a surreal landscape of giant granite boulders and banana plantations along the Tungabhadra River — the remains of Vijayanagara, once one of the richest empires in the world. Temple complexes, elephant stables, and stone chariots sit scattered across the terrain, best explored slowly by bicycle or scooter.",
+    "quickStats": {
+      "bestTime": "October – February",
+      "avgDailyCostUSD": 25,
+      "flightTimeHours": 18,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb"
+      ],
+      "tempRangeC": "15°C – 32°C",
+      "seasonalityNotes": "Summer heat on exposed boulder terrain is intense with little shade; carry more water than feels necessary."
+    },
+    "bestForTags": [
+      "Backpackers",
+      "History Buffs",
+      "Photographers",
+      "Budget Travelers"
+    ],
+    "whyYouWillLoveIt": [
+      "Sunset from Matanga Hill over the entire boulder-strewn ruin field.",
+      "Cycling between temple complexes past rice paddies and giant balanced rocks.",
+      "The stone chariot and musical pillars of Vittala Temple, said to ring different notes when tapped.",
+      "Laid-back riverside cafés in Hampi Bazaar and across the river in Virupapur Gaddi."
+    ],
+    "whatToKnow": [
+      "The ruins are spread over a wide area with punishing midday sun and little shade — start sightseeing early morning or late afternoon.",
+      "Alcohol is restricted within the core heritage zone; it is available across the river in Virupapur Gaddi."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "hampi-h1",
+        "title": "Sunset from Matanga Hill",
+        "description": "Climb a short boulder trail for panoramic views over temple spires and the river at golden hour.",
+        "category": "Nature"
+      },
+      {
+        "id": "hampi-h2",
+        "title": "Vittala Temple's Stone Chariot",
+        "description": "Marvel at the intricately carved chariot and musical pillars of Hampi's most iconic monument.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Coracle Boat River Crossing",
+        "amount": "₹50 – ₹100",
+        "description": "A round woven-basket boat ferries visitors across the Tungabhadra to Virupapur Gaddi.",
+        "isMandatory": false
+      }
+    ],
+    "lastVerifiedDate": "2026-06-28"
+  },
+  {
+    "id": "coorg_karnataka",
+    "name": "Coorg (Kodagu)",
+    "country": "India",
+    "region": "Karnataka, South India",
+    "tagline": "Misty coffee plantations and waterfalls in the Western Ghats",
+    "heroImageUrl": "https://loremflickr.com/1200/800/coorg,coffeeplantation",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/kodagu,karnataka",
+      "https://loremflickr.com/800/600/westernghats,coffee",
+      "https://loremflickr.com/800/600/coorg,india"
+    ],
+    "vibeTags": [
+      "Slow & Grounded",
+      "Nature",
+      "Hill Station",
+      "Culinary"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 84,
+    "matchRationale": "A relaxed choice for travelers wanting green coffee-country scenery, waterfalls, and distinctive Kodava cuisine within reach of Bangalore.",
+    "curiosityHook": "Coorg produces roughly a third of India's coffee, grown in the shade of jackfruit and silver oak trees rather than open plantations, which is why it tastes noticeably different from most commercial coffee.",
+    "overviewSummary": "Known as the \"Scotland of India,\" Coorg is a hill district in Karnataka's Western Ghats blanketed in coffee and spice plantations, waterfalls, and dense evergreen forest. It is home to the Kodava community, with a distinct cuisine and martial history unlike anywhere else in South India.",
+    "quickStats": {
+      "bestTime": "October – March",
+      "avgDailyCostUSD": 40,
+      "flightTimeHours": 18,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar"
+      ],
+      "tempRangeC": "12°C – 28°C",
+      "seasonalityNotes": "Monsoon (Jun–Sep) is extremely heavy — waterfalls are most dramatic then, but landslides and leeches are common on trails."
+    },
+    "bestForTags": [
+      "Nature Lovers",
+      "Coffee Enthusiasts",
+      "Couples",
+      "Foodies"
+    ],
+    "whyYouWillLoveIt": [
+      "Guided coffee plantation walks ending in a fresh cupping session.",
+      "Trekking to Abbey Falls or the more remote Chelavara Falls through jungle trail.",
+      "Traditional Kodava pandi curry (pork) and bamboo shoot dishes, distinct from typical South Indian food.",
+      "Cool, misty mornings year-round thanks to the elevation and dense forest cover."
+    ],
+    "whatToKnow": [
+      "Monsoon season brings leeches on forest trails — wear proper covered footwear and consider leech socks.",
+      "Coorg is spread across scattered small towns and estates rather than one central hub, so a rental car or driver is more practical than relying on local transit."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "coorg-h1",
+        "title": "Plantation Walk & Coffee Cupping",
+        "description": "Tour shade-grown coffee terraces with a grower before tasting fresh single-estate roasts.",
+        "category": "Food"
+      },
+      {
+        "id": "coorg-h2",
+        "title": "Trek to Chelavara Falls",
+        "description": "Hike through dense forest to a twin waterfall cascading over volcanic rock.",
+        "category": "Nature"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Estate Homestay Meal Plans",
+        "amount": "$10 – $20/day",
+        "description": "Many coffee estate stays quote room-only rates; home-cooked Kodava meals are often a separate add-on.",
+        "isMandatory": false
+      }
+    ],
+    "lastVerifiedDate": "2026-06-08"
+  },
+  {
+    "id": "havelock_andaman",
+    "name": "Havelock Island, Andaman",
+    "country": "India",
+    "region": "Andaman & Nicobar Islands",
+    "tagline": "White-sand beaches and coral reefs in the Bay of Bengal",
+    "heroImageUrl": "https://loremflickr.com/1200/800/andamanislands,beach",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/radhanagarbeach,andaman",
+      "https://loremflickr.com/800/600/havelockisland,india",
+      "https://loremflickr.com/800/600/andaman,scubadiving"
+    ],
+    "vibeTags": [
+      "Sun & Stillness",
+      "Off the Grid",
+      "Coastal Charm",
+      "Adventure"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 92,
+    "matchRationale": "Ideal for travelers wanting Southeast-Asia-caliber beaches and diving without leaving India, and a genuinely remote, uncrowded escape.",
+    "curiosityHook": "Radhanagar Beach on Havelock was once named Asia's Best Beach by Time magazine, yet the island still has no traffic lights and only a handful of paved roads.",
+    "overviewSummary": "Havelock Island (officially Swaraj Dweep) is the most developed yet still-uncrowded island in India's remote Andaman archipelago, ringed by turquoise water, coral reefs, and dense tropical forest. It is India's premier scuba diving destination, with visibility and marine life rivaling far more famous international dive spots.",
+    "quickStats": {
+      "bestTime": "November – April",
+      "avgDailyCostUSD": 65,
+      "flightTimeHours": 20,
+      "transitCostTier": "$$$$",
+      "groundCostTier": "$$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr"
+      ],
+      "tempRangeC": "23°C – 31°C",
+      "seasonalityNotes": "Monsoon (May–Oct) brings rough seas that suspend most ferries and diving operations."
+    },
+    "bestForTags": [
+      "Beach Lovers",
+      "Divers & Snorkelers",
+      "Honeymooners",
+      "Off-the-Grid Travelers"
+    ],
+    "whyYouWillLoveIt": [
+      "Scuba diving or snorkeling coral reefs at Elephant Beach and Barracuda City.",
+      "Sunset at Radhanagar Beach, ranked among the finest beaches in Asia.",
+      "A genuinely remote island vibe with limited development compared to Goa or Southeast Asia.",
+      "Kayaking through mangrove creeks at dawn with minimal other tourists around."
+    ],
+    "whatToKnow": [
+      "Reaching Havelock requires flying into Port Blair first, then a 1.5–2.5 hour ferry — factor in a buffer day for ferry delays or cancellations.",
+      "ATMs and mobile connectivity are limited and unreliable on the island; carry more cash than you think you'll need."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "havelock-h1",
+        "title": "Scuba Dive at Barracuda City",
+        "description": "Explore vibrant coral walls and schools of barracuda in some of India's clearest waters.",
+        "category": "Adventure"
+      },
+      {
+        "id": "havelock-h2",
+        "title": "Sunset at Radhanagar Beach",
+        "description": "Watch the sky turn pink over powder-white sand and turquoise shallows.",
+        "category": "Nature"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Port Blair – Havelock Ferry Tickets",
+        "amount": "$15 – $35 one-way",
+        "description": "Government and private ferries are booked separately from flights and sell out fast in peak season.",
+        "isMandatory": true
+      },
+      {
+        "title": "Marine Park / National Park Entry",
+        "amount": "₹500 – ₹1,000 (foreigner rate)",
+        "description": "Diving and snorkeling in protected marine areas around Havelock and neighboring islands requires a park fee.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-06-18"
+  },
+  {
+    "id": "pondicherry",
+    "name": "Pondicherry (Puducherry)",
+    "country": "India",
+    "region": "Puducherry, South India",
+    "tagline": "French colonial streets, seaside promenades, and a spiritual ashram town",
+    "heroImageUrl": "https://loremflickr.com/1200/800/pondicherry,frenchquarter",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/puducherry,india",
+      "https://loremflickr.com/800/600/pondicherry,promenade",
+      "https://loremflickr.com/800/600/auroville,india"
+    ],
+    "vibeTags": [
+      "Coastal Charm",
+      "Culture",
+      "Slow & Grounded",
+      "Culinary"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 87,
+    "matchRationale": "Suits travelers who want a walkable, laid-back coastal town blending French and Tamil culture without India's usual big-city intensity.",
+    "curiosityHook": "Pondicherry remained a French colonial territory until 1954 — seven years after Indian independence — which is why street signs still read Rue and cafés serve fresh croissants alongside dosa.",
+    "overviewSummary": "Pondicherry's French Quarter is a grid of mustard-yellow colonial villas, bougainvillea, and quiet cafés along a breezy seafront promenade, feeling more like a Mediterranean town than mainland India. Nearby Auroville, an experimental international \"universal town\" founded in 1968, adds a distinct meditative counterpoint just outside the city.",
+    "quickStats": {
+      "bestTime": "November – February",
+      "avgDailyCostUSD": 40,
+      "flightTimeHours": 18,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb"
+      ],
+      "tempRangeC": "20°C – 30°C",
+      "seasonalityNotes": "Summer (Mar–Jun) is hot and humid; the coast can see cyclone risk during the Oct–Dec northeast monsoon."
+    },
+    "bestForTags": [
+      "Slow Travel",
+      "Foodies",
+      "Couples",
+      "Wellness Travelers"
+    ],
+    "whyYouWillLoveIt": [
+      "Wandering the pastel French Quarter's car-free streets at sunset.",
+      "French-Tamil fusion dining, from bakery croissants to authentic Chettinad curries.",
+      "Cycling out to Auroville's golden Matrimandir meditation dome.",
+      "A relaxed seafront promenade with none of the hawker intensity of bigger Indian beach towns."
+    ],
+    "whatToKnow": [
+      "Auroville's Matrimandir inner chamber requires advance booking and a short orientation video before entry.",
+      "The town beach itself is rocky and not ideal for swimming; better beaches are a short drive south toward Paradise Beach."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "pondicherry-h1",
+        "title": "French Quarter Sunset Walk",
+        "description": "Stroll past colonial villas and bougainvillea-draped courtyards as street lamps flicker on.",
+        "category": "Culture"
+      },
+      {
+        "id": "pondicherry-h2",
+        "title": "Auroville & the Matrimandir",
+        "description": "Visit the golden geodesic meditation dome at the heart of this experimental international community.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Matrimandir Inner Chamber Pass",
+        "amount": "Free, but requires advance booking",
+        "description": "Same-day walk-ins are turned away; reserve online or in person a day ahead at the Visitor Centre.",
+        "isMandatory": false
+      }
+    ],
+    "lastVerifiedDate": "2026-07-02"
+  },
+  {
+    "id": "amritsar_punjab",
+    "name": "Amritsar",
+    "country": "India",
+    "region": "Punjab, North India",
+    "tagline": "The luminous Golden Temple and the roaring Wagah Border ceremony",
+    "heroImageUrl": "https://loremflickr.com/1200/800/goldentemple,amritsar",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/amritsar,india",
+      "https://loremflickr.com/800/600/wagahborder,punjab",
+      "https://loremflickr.com/800/600/punjab,india"
+    ],
+    "vibeTags": [
+      "Spiritual",
+      "Culture",
+      "Culinary",
+      "Ancient Wonders"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 88,
+    "matchRationale": "A powerful choice for travelers seeking spiritual awe, communal hospitality, and hearty Punjabi food, all within a very compact city.",
+    "curiosityHook": "The Golden Temple's community kitchen (langar) serves free meals to over 100,000 people a day, cooked and served entirely by volunteers regardless of religion.",
+    "overviewSummary": "Amritsar is anchored by the Golden Temple (Harmandir Sahib), Sikhism's holiest shrine, its gold-plated dome reflecting in a surrounding sacred pool. Just outside town, the nightly Wagah Border ceremony delivers a theatrical, high-energy display of India-Pakistan military pageantry, and the city's food scene is among the richest in North India.",
+    "quickStats": {
+      "bestTime": "October – March",
+      "avgDailyCostUSD": 30,
+      "flightTimeHours": 16.5,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar"
+      ],
+      "tempRangeC": "5°C – 28°C",
+      "seasonalityNotes": "Summer (Apr–Jun) heat is intense and dry; winter fog can affect early flights and border ceremony visibility."
+    },
+    "bestForTags": [
+      "Spiritual Seekers",
+      "Foodies",
+      "Culture Immersion",
+      "History Buffs"
+    ],
+    "whyYouWillLoveIt": [
+      "Visiting the Golden Temple at night, when the gilded shrine reflects in the pool under floodlights.",
+      "Sharing a meal in the world's largest free community kitchen alongside pilgrims of every background.",
+      "The high-energy Wagah Border flag-lowering ceremony, complete with crowd chants and drill routines.",
+      "Legendary Amritsari kulcha, lassi, and butter chicken in the old city's food lanes."
+    ],
+    "whatToKnow": [
+      "Head coverings are mandatory and shoes must be removed before entering the Golden Temple complex — scarves are provided free at the entrance if you don't have one.",
+      "The Wagah Border ceremony draws huge crowds; arrive at least 90 minutes early for a decent viewing spot, especially on weekends."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "amritsar-h1",
+        "title": "Golden Temple at Night",
+        "description": "See the gilded shrine glow above its reflecting pool, with hymns broadcast live through the complex.",
+        "category": "Culture"
+      },
+      {
+        "id": "amritsar-h2",
+        "title": "Wagah Border Ceremony",
+        "description": "Witness the theatrical nightly flag-lowering face-off between Indian and Pakistani border guards.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Locker / Shoe Storage Donation",
+        "amount": "₹10 – ₹20 (voluntary)",
+        "description": "Free shoe and locker storage at the Golden Temple typically accepts small voluntary donations.",
+        "isMandatory": false
+      }
+    ],
+    "lastVerifiedDate": "2026-07-08"
+  },
+  {
+    "id": "meghalaya_cherrapunji",
+    "name": "Cherrapunji & Shillong, Meghalaya",
+    "country": "India",
+    "region": "Meghalaya, Northeast India",
+    "tagline": "Living root bridges and waterfalls in one of the wettest places on Earth",
+    "heroImageUrl": "https://loremflickr.com/1200/800/meghalaya,livingrootbridge",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/cherrapunji,india",
+      "https://loremflickr.com/800/600/shillong,meghalaya",
+      "https://loremflickr.com/800/600/waterfall,meghalaya"
+    ],
+    "vibeTags": [
+      "Wild & Untamed",
+      "Off the Grid",
+      "Adventure",
+      "Nature"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 90,
+    "matchRationale": "A standout for travelers wanting genuinely unusual nature experiences and a Northeast India culture very different from the rest of the country.",
+    "curiosityHook": "Meghalaya's Khasi tribes grow \"living root bridges\" by training the roots of rubber fig trees across rivers over 15-30 years — some bridges are now over 500 years old and still strengthening.",
+    "overviewSummary": "Meghalaya (\"abode of clouds\") is a lush Northeast Indian state of limestone caves, thundering waterfalls, and living root bridges grown by hand over generations. Cherrapunji and neighboring Mawsynram compete for the title of wettest place on Earth, feeding a landscape of dramatic gorges and jungle you won't find replicated anywhere else in the country.",
+    "quickStats": {
+      "bestTime": "October – April",
+      "avgDailyCostUSD": 40,
+      "flightTimeHours": 19.5,
+      "transitCostTier": "$$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr"
+      ],
+      "tempRangeC": "10°C – 24°C",
+      "seasonalityNotes": "Monsoon (May–Sep) brings extreme, near-constant rainfall — waterfalls are at their most powerful but trekking and root-bridge hikes become difficult or unsafe."
+    },
+    "bestForTags": [
+      "Off-the-Grid Travelers",
+      "Trekkers",
+      "Nature Lovers",
+      "Adventure Seekers"
+    ],
+    "whyYouWillLoveIt": [
+      "Trekking down thousands of stone steps to the double-decker living root bridge in Nongriat.",
+      "Exploring some of Asia's longest sandstone caves around Cherrapunji.",
+      "Swimming in the crystal-clear natural pools of Dawki's Umngot River.",
+      "Distinct Khasi tribal culture and matrilineal society found nowhere else in India."
+    ],
+    "whatToKnow": [
+      "The Nongriat root bridge trek involves roughly 3,500 steep steps down and back up — pace yourself and start early.",
+      "Roads throughout the region are narrow and winding with frequent mist and rain, making travel between sights slower than distances suggest."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "meghalaya-h1",
+        "title": "Trek to the Double-Decker Root Bridge",
+        "description": "Descend through jungle and river crossings to a living bridge woven from fig tree roots over centuries.",
+        "category": "Adventure"
+      },
+      {
+        "id": "meghalaya-h2",
+        "title": "Kayak Dawki's Crystal River",
+        "description": "Paddle over the Umngot River's famously clear water, said to look like boats floating on air.",
+        "category": "Nature"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Local Guide Fee for Root Bridge Trek",
+        "amount": "₹500 – ₹1,000",
+        "description": "Hiring a local Khasi guide is strongly recommended and often informally expected in Nongriat village.",
+        "isMandatory": false
+      }
+    ],
+    "lastVerifiedDate": "2026-06-12"
+  },
+  {
+    "id": "rann_of_kutch",
+    "name": "Rann of Kutch",
+    "country": "India",
+    "region": "Gujarat, West India",
+    "tagline": "A blinding-white salt desert that hosts a moonlit winter festival",
+    "heroImageUrl": "https://loremflickr.com/1200/800/rannofkutch,saltdesert",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/kutch,gujarat",
+      "https://loremflickr.com/800/600/whitedesert,india",
+      "https://loremflickr.com/800/600/rannutsav,gujarat"
+    ],
+    "vibeTags": [
+      "Desert",
+      "Off the Grid",
+      "Culture",
+      "Ancient Wonders"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 86,
+    "matchRationale": "A distinctive pick for travelers wanting a truly surreal landscape and vibrant tribal handicraft culture rarely covered on typical India itineraries.",
+    "curiosityHook": "The Rann of Kutch is a seasonal salt marsh that floods during monsoon and dries into a blinding white crust stretching to the horizon — one of the largest salt deserts on the planet.",
+    "overviewSummary": "The Great Rann of Kutch is a vast white salt desert in Gujarat that turns almost lunar under a full moon, hosting the annual Rann Utsav festival of tents, folk music, and handicrafts each winter. Surrounding villages are home to some of India's most distinctive textile and embroidery traditions, largely untouched by mass tourism.",
+    "quickStats": {
+      "bestTime": "November – February",
+      "avgDailyCostUSD": 45,
+      "flightTimeHours": 17,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb"
+      ],
+      "tempRangeC": "8°C – 28°C",
+      "seasonalityNotes": "The salt flats are only walkable in the dry winter months; summer heat is extreme and the Rann floods entirely during monsoon."
+    },
+    "bestForTags": [
+      "Off-the-Grid Travelers",
+      "Photographers",
+      "Culture Seekers",
+      "Festival Travelers"
+    ],
+    "whyYouWillLoveIt": [
+      "Walking onto the white salt crust under a full moon during Rann Utsav.",
+      "Visiting Kutchi artisan villages known for mirror-work embroidery and block printing.",
+      "Wildlife spotting in the nearby Wild Ass Sanctuary, home to the endangered Indian wild ass.",
+      "Staying in traditional Bhungas — circular mud-and-mirror huts — at the Rann Utsav tent city."
+    ],
+    "whatToKnow": [
+      "The salt desert is only accessible and open to tourists roughly November through February, coinciding with the Rann Utsav festival — check exact dates before planning.",
+      "The area is remote with long drives between sights; a private driver or organized tour is far more practical than independent travel."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "kutch-h1",
+        "title": "Full Moon Night on the Salt Flats",
+        "description": "Walk out onto the blinding white Rann as it glows silver under a full moon.",
+        "category": "Nature"
+      },
+      {
+        "id": "kutch-h2",
+        "title": "Artisan Village Textile Tour",
+        "description": "Meet Kutchi embroidery and block-print artisans practicing centuries-old techniques.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Rann Utsav Festival Entry",
+        "amount": "₹100 – ₹200 per person",
+        "description": "A separate ticketed entry applies to access the festival tent city and salt desert viewing area.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-06-22"
+  },
+  {
+    "id": "mumbai_maharashtra",
+    "name": "Mumbai",
+    "country": "India",
+    "region": "Maharashtra, West India",
+    "tagline": "India's relentless coastal megacity of Bollywood, colonial architecture, and street food",
+    "heroImageUrl": "https://loremflickr.com/1200/800/mumbai,skyline",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/gatewayofindia,mumbai",
+      "https://loremflickr.com/800/600/marinedrive,mumbai",
+      "https://loremflickr.com/800/600/mumbai,india"
+    ],
+    "vibeTags": [
+      "Urban Pulse",
+      "Culinary",
+      "Culture",
+      "Nightlife"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 88,
+    "matchRationale": "Best for travelers energized by dense, fast-paced megacities with strong food, film, and colonial-architecture scenes.",
+    "curiosityHook": "Mumbai's dabbawalas deliver over 200,000 home-cooked lunchboxes across the city daily by bicycle and train with an error rate so low it has been studied as a Six Sigma case study by Harvard Business School.",
+    "overviewSummary": "Mumbai is India's financial and entertainment capital, a dense coastal sprawl where Victorian Gothic railway stations sit blocks from Bollywood studios and some of Asia's largest slums neighbor its wealthiest neighborhoods. Marine Drive's curved promenade, the Gateway of India, and an unmatched street food scene make it essential and exhausting in equal measure.",
+    "quickStats": {
+      "bestTime": "November – February",
+      "avgDailyCostUSD": 55,
+      "flightTimeHours": 16,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb"
+      ],
+      "tempRangeC": "18°C – 32°C",
+      "seasonalityNotes": "Monsoon (Jun–Sep) brings dramatic, city-flooding downpours; humidity remains high most of the year given the coastal location."
+    },
+    "bestForTags": [
+      "Urban Explorers",
+      "Foodies",
+      "Film & Culture Fans",
+      "Business Travelers"
+    ],
+    "whyYouWillLoveIt": [
+      "Sunset walks along the Art Deco curve of Marine Drive, known as the \"Queen's Necklace.\"",
+      "Street food crawls through Mohammed Ali Road and Juhu Beach — vada pav, pav bhaji, and bhel puri.",
+      "Exploring the Gothic Revival grandeur of Chhatrapati Shivaji Maharaj Terminus, a UNESCO World Heritage railway station still in daily use.",
+      "A boat trip to the ancient rock-cut Elephanta Caves in the harbor."
+    ],
+    "whatToKnow": [
+      "Traffic congestion is severe at almost all hours; the local suburban train network is far faster for longer crossings but extremely crowded at rush hour.",
+      "Monsoon season (Jun–Sep) can cause serious flooding and transport disruption — avoid scheduling this window if possible."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "mumbai-h1",
+        "title": "Marine Drive at Sunset",
+        "description": "Join locals strolling the seafront promenade as the Art Deco skyline lights up.",
+        "category": "Culture"
+      },
+      {
+        "id": "mumbai-h2",
+        "title": "Street Food Crawl",
+        "description": "Sample vada pav, pav bhaji, and fresh sugarcane juice from generations-old stalls.",
+        "category": "Food"
+      },
+      {
+        "id": "mumbai-h3",
+        "title": "Elephanta Caves Ferry",
+        "description": "Cross the harbor to explore 6th-century rock-cut Hindu cave temples dedicated to Shiva.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Elephanta Caves Ferry & Entry",
+        "amount": "₹250 ferry + ₹250 entry (approx.)",
+        "description": "Ferry tickets and the caves' archaeological site entry fee are purchased separately.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-07-14"
+  },
+  {
+    "id": "kolkata_wb",
+    "name": "Kolkata",
+    "country": "India",
+    "region": "West Bengal, East India",
+    "tagline": "Colonial grandeur, literary coffeehouses, and India's sweetest desserts",
+    "heroImageUrl": "https://loremflickr.com/1200/800/kolkata,victoriamemorial",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/kolkata,india",
+      "https://loremflickr.com/800/600/howrahbridge,kolkata",
+      "https://loremflickr.com/800/600/westbengal,india"
+    ],
+    "vibeTags": [
+      "Culture",
+      "Culinary",
+      "Urban Pulse",
+      "Ancient Wonders"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 85,
+    "matchRationale": "A great fit for travelers drawn to intellectual, artistic culture, colonial-era architecture, and one of India's most celebrated food cities.",
+    "curiosityHook": "Kolkata is the last city in the world where hand-pulled rickshaws are still licensed to operate on public streets, a practice dating to the 1880s.",
+    "overviewSummary": "Kolkata (formerly Calcutta) was the capital of British India until 1911, and its grand colonial architecture, tram network, and literary café culture still carry that legacy. Known as India's cultural capital, it blends Durga Puja festival fervor, adda (café conversation culture), and a legendary sweets tradition into a city unlike any other in the country.",
+    "quickStats": {
+      "bestTime": "October – March",
+      "avgDailyCostUSD": 30,
+      "flightTimeHours": 18,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar"
+      ],
+      "tempRangeC": "12°C – 30°C",
+      "seasonalityNotes": "Summer (Apr–Jun) is hot and humid; monsoon (Jun–Sep) brings heavy, sustained rain and occasional flooding."
+    },
+    "bestForTags": [
+      "Culture Immersion",
+      "Foodies",
+      "History Buffs",
+      "Budget Travelers"
+    ],
+    "whyYouWillLoveIt": [
+      "The marble domes of the Victoria Memorial lit up at dusk.",
+      "Old-world coffeehouse culture at Indian Coffee House, a haunt of writers and revolutionaries since 1876.",
+      "Legendary Bengali sweets — rosogolla, sandesh, and mishti doi from century-old shops.",
+      "Crossing the cantilevered Howrah Bridge at rush hour, one of the busiest bridges in the world."
+    ],
+    "whatToKnow": [
+      "Infrastructure and roads can feel more worn than other major Indian metros; expect a grittier, less polished experience than Mumbai or Delhi.",
+      "Durga Puja (Sep–Oct) transforms the city but also brings massive crowds and stretched hotel prices — book far ahead if visiting during the festival."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "kolkata-h1",
+        "title": "Victoria Memorial at Dusk",
+        "description": "Watch the white marble monument glow under floodlights as the surrounding gardens empty out.",
+        "category": "Culture"
+      },
+      {
+        "id": "kolkata-h2",
+        "title": "Sweet Shop Crawl",
+        "description": "Taste rosogolla, sandesh, and mishti doi across some of the city's oldest confectioners.",
+        "category": "Food"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Victoria Memorial Museum & Camera Fee",
+        "amount": "₹500 (foreigner rate) + ₹50 camera",
+        "description": "Foreign visitor pricing and a separate photography fee apply beyond the grounds entry.",
+        "isMandatory": false
+      }
+    ],
+    "lastVerifiedDate": "2026-07-06"
+  },
+  {
+    "id": "srinagar_kashmir",
+    "name": "Srinagar, Kashmir",
+    "country": "India",
+    "region": "Jammu & Kashmir, North India",
+    "tagline": "Houseboats on Dal Lake beneath snow-capped Himalayan peaks",
+    "heroImageUrl": "https://loremflickr.com/1200/800/dallake,srinagar",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/kashmir,houseboat",
+      "https://loremflickr.com/800/600/srinagar,india",
+      "https://loremflickr.com/800/600/kashmir,himalaya"
+    ],
+    "vibeTags": [
+      "Romantic",
+      "Nature",
+      "Lakes & Water",
+      "Hill Station"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 89,
+    "matchRationale": "Best for travelers wanting classic \"paradise on earth\" Himalayan lake scenery, Mughal gardens, and a slower, watery pace of travel.",
+    "curiosityHook": "The ornately carved wooden houseboats on Dal Lake originated because a British colonial ban prevented foreigners from owning land in Kashmir — so the British built floating homes instead.",
+    "overviewSummary": "Srinagar centers on Dal Lake, where cedar-carved houseboats and shikara gondolas drift beneath the snow-dusted peaks of the Pir Panjal range. Mughal emperors built elaborate terraced gardens here to escape the plains' summer heat, and the city remains one of India's most visually stunning — a landscape long described as \"paradise on earth.\"",
+    "quickStats": {
+      "bestTime": "April – October",
+      "avgDailyCostUSD": 50,
+      "flightTimeHours": 16.5,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct"
+      ],
+      "tempRangeC": "5°C – 30°C",
+      "seasonalityNotes": "Winters bring heavy snow and many houseboats/gardens close or scale back; spring (Apr–May) offers blooming Mughal gardens and fewer crowds."
+    },
+    "bestForTags": [
+      "Honeymooners",
+      "Nature Lovers",
+      "Photographers",
+      "Slow Travel"
+    ],
+    "whyYouWillLoveIt": [
+      "Sleeping aboard a traditional carved-wood houseboat on Dal Lake.",
+      "Gliding between floating vegetable markets by shikara at sunrise.",
+      "Walking the terraced Mughal gardens of Shalimar Bagh and Nishat Bagh.",
+      "Day trips to alpine meadows like Gulmarg and Pahalgam for hiking or winter skiing."
+    ],
+    "whatToKnow": [
+      "The security and political situation in Kashmir can shift; check current government travel advisories close to your travel dates.",
+      "Houseboat comfort levels vary widely by season — winter stays can be cold without reliable heating, so confirm heating arrangements in advance."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "srinagar-h1",
+        "title": "Sunrise Floating Vegetable Market",
+        "description": "Join shikara boats trading fresh produce on Dal Lake before the morning mist clears.",
+        "category": "Culture"
+      },
+      {
+        "id": "srinagar-h2",
+        "title": "Mughal Garden Walk at Nishat Bagh",
+        "description": "Stroll terraced lawns and fountains built for 17th-century emperors, framed by snow peaks.",
+        "category": "Nature"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Shikara Ride Negotiated Fare",
+        "amount": "₹400 – ₹1,200 per hour",
+        "description": "Boat rates are unmetered and vary by season and season demand; agree the route and duration before boarding.",
+        "isMandatory": true
+      }
+    ],
+    "lastVerifiedDate": "2026-06-27"
+  },
+  {
+    "id": "ranthambore_rajasthan",
+    "name": "Ranthambore National Park",
+    "country": "India",
+    "region": "Rajasthan, North India",
+    "tagline": "Wild Bengal tigers prowling the ruins of a 10th-century fort",
+    "heroImageUrl": "https://loremflickr.com/1200/800/ranthambore,tiger",
+    "galleryUrls": [
+      "https://loremflickr.com/800/600/bengaltiger,india",
+      "https://loremflickr.com/800/600/ranthamborefort,rajasthan",
+      "https://loremflickr.com/800/600/wildlife,rajasthan"
+    ],
+    "vibeTags": [
+      "Wild & Untamed",
+      "Adventure",
+      "Nature",
+      "Ancient Wonders"
+    ],
+    "destinationRegionBucket": "Asia-Pacific",
+    "matchScore": 87,
+    "matchRationale": "A top pick for wildlife travelers hoping to see wild tigers, combined with the novelty of a crumbling fort inside the reserve itself.",
+    "curiosityHook": "Ranthambore Fort, a UNESCO World Heritage Site, sits inside the tiger reserve itself — visitors regularly spot tigers walking past its 1,000-year-old ramparts and temples.",
+    "overviewSummary": "Ranthambore is one of India's best chances to see a wild Bengal tiger, set within a dry deciduous forest dotted with lakes and the dramatic ruins of a 10th-century hilltop fort. Jeep and canter safaris move through numbered zones at dawn and dusk, when tigers, leopards, sloth bears, and marsh crocodiles are most active.",
+    "quickStats": {
+      "bestTime": "October – April",
+      "avgDailyCostUSD": 70,
+      "flightTimeHours": 17,
+      "transitCostTier": "$$$",
+      "groundCostTier": "$$"
+    },
+    "weather": {
+      "bestMonths": [
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr"
+      ],
+      "tempRangeC": "8°C – 35°C",
+      "seasonalityNotes": "The park closes entirely during monsoon (Jul–Sep) for the breeding season; late April into May brings extreme heat but the best tiger sighting odds as animals gather at shrinking waterholes."
+    },
+    "bestForTags": [
+      "Wildlife Enthusiasts",
+      "Photographers",
+      "Families",
+      "Nature Lovers"
+    ],
+    "whyYouWillLoveIt": [
+      "Dawn jeep safaris through forest zones with a genuine chance of spotting a wild tiger.",
+      "Exploring the atmospheric ruins of Ranthambore Fort, still home to a functioning temple.",
+      "Birdwatching around Padam Talao and Malik Talao lakes, rich with waterfowl and marsh crocodiles.",
+      "Small-group safari vehicles that keep the experience far less crowded than African savanna parks."
+    ],
+    "whatToKnow": [
+      "Tiger sightings are never guaranteed — a good guide and multiple safari attempts significantly improve your odds, so budget for at least 2-3 safaris.",
+      "Safari permits are zone-specific and allocated through a government booking system that sells out weeks ahead in peak season; book well in advance or through a reputable lodge."
+    ],
+    "experienceHighlights": [
+      {
+        "id": "ranthambore-h1",
+        "title": "Dawn Tiger Safari",
+        "description": "Ride an open jeep through misty forest tracks as trackers radio in fresh pugmark sightings.",
+        "category": "Adventure"
+      },
+      {
+        "id": "ranthambore-h2",
+        "title": "Ranthambore Fort Exploration",
+        "description": "Wander a thousand-year-old hilltop fort with resident langurs and peacocks amid its temples.",
+        "category": "Culture"
+      }
+    ],
+    "hiddenFees": [
+      {
+        "title": "Safari Zone Permit & Gypsy/Canter Fee",
+        "amount": "$25 – $60 per safari",
+        "description": "Government permit, vehicle, and guide fees are charged per safari and vary by zone and vehicle type (6-seat gypsy vs. 20-seat canter).",
+        "isMandatory": true
+      },
+      {
+        "title": "Camera/Video Fee",
+        "amount": "₹200 (video cameras)",
+        "description": "Professional video equipment requires a separate permit fee beyond standard photography.",
+        "isMandatory": false
+      }
+    ],
+    "lastVerifiedDate": "2026-07-16"
+  }
+]

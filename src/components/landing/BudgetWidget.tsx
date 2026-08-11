@@ -78,12 +78,17 @@ export default function BudgetWidget() {
         </div>
       )}
 
-      {/* Origin city — optional, sharpens transit cost estimates (Epic 7) */}
+      {/* Origin city — required. Every transit cost and duration is computed from
+          it, so without one the cost engine is guessing rather than calculating. */}
       <div className="space-y-1.5 pt-2.5 border-t border-slate-100">
         <div className="flex items-center gap-1.5 text-[11px] font-bold text-slate-500 uppercase tracking-wider">
           <Plane className="w-3.5 h-3.5 text-teal-600" />
           <span>Travelling From</span>
-          <span className="text-slate-300 font-normal normal-case">(optional — sharpens cost estimates)</span>
+          {constraints.originCity ? (
+            <span className="text-slate-300 font-normal normal-case">(sharpens every cost estimate)</span>
+          ) : (
+            <span className="text-orange-600 font-bold normal-case">· required</span>
+          )}
         </div>
         <div className="flex flex-wrap gap-1.5">
           {ORIGIN_CITIES.map((city) => {

@@ -9,8 +9,14 @@ import BudgetWidget from './BudgetWidget';
 import { MOCK_EXAMPLE_PROMPTS } from '@/lib/mockData';
 
 export default function MoodHero() {
-  const { moodText, setMoodText, submitMoodPrompt } = useWandrStore();
+  const { moodText, setMoodText, submitMoodPrompt, constraints } = useWandrStore();
   const router = useRouter();
+
+  // Every transit cost and duration is computed from the origin city, so without
+  // one the cost engine falls back to a four-value tier that is the same number
+  // for a 200km hop and a flight to the Andamans. Blocking here is cheaper than
+  // showing figures we know are wrong.
+  const hasOrigin = Boolean(constraints.originCity);
 
   const [activePromptIndex, setActivePromptIndex] = useState(0);
 
@@ -35,12 +41,13 @@ export default function MoodHero() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!trimmed) return;
+    if (!trimmed || !hasOrigin) return;
     submitMoodPrompt();
     goToSession();
   };
 
   const handleChipClick = (promptText: string) => {
+    if (!hasOrigin) return;
     setMoodText(promptText);
     submitMoodPrompt(promptText);
     goToSession();
@@ -117,12 +124,19 @@ export default function MoodHero() {
             {/* Send — directly below the chat box, this path's own clear submit action */}
             <button
               type="submit"
-              disabled={!trimmed}
+              disabled={!trimmed || !hasOrigin}
               className="w-full py-3 px-5 rounded-xl bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 hover:from-amber-400 hover:via-orange-400 hover:to-rose-400 disabled:opacity-40 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-orange-500/25 hover:scale-[1.01] active:scale-[0.99] transition-all duration-200"
             >
               <Send className="w-4 h-4" />
               <span>Send</span>
             </button>
+            {/* Says which requirement is unmet — a button that is simply dead
+                reads as broken rather than as waiting for something. */}
+            {trimmed && !hasOrigin && (
+              <p className="text-[11px] font-semibold text-orange-600 text-center -mt-1">
+                Pick where you&rsquo;re travelling from above — every cost estimate depends on it.
+              </p>
+            )}
           </form>
         </div>
 

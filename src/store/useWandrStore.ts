@@ -75,7 +75,7 @@ function runDiscovery(
     .map((m) => ({ sender: m.sender, text: m.text }));
 
   void streamDiscovery(
-    { message: opts.message, history },
+    { message: opts.message, history, originCity: get().constraints.originCity },
     {
       onTextDelta: (delta) =>
         set((state) => ({
@@ -126,8 +126,13 @@ function detectNegativesFromText(text: string): string[] {
 // Epic 7.1: Total-Budget Duration Optimizer — origin-aware via the static Transit Cost Matrix,
 // kept in one place so chat trade-off messaging and the Deep-Dive modal never drift apart.
 function computeAffordableDays(destination: Destination, budget: number, originCity?: OriginCity | null): number {
-  const tier = getEffectiveTransitTier(destination, originCity);
-  const transitEstimate = estimateTransitCostINR(tier);
+  // Prefer the real per-route figure joined from `transit_routes`. The tier
+  // estimate collapses every journey into one of four numbers, which made
+  // Delhi→Agra and Delhi→Andamans cost the same — falls back to it only when
+  // no origin was set, or the route is missing from the table.
+  const transitEstimate =
+    destination.originTransit?.costINR ??
+    estimateTransitCostINR(getEffectiveTransitTier(destination, originCity));
   const netGroundBudget = Math.max(0, budget - transitEstimate);
   return Math.round(netGroundBudget / destination.quickStats.avgDailyCostINR);
 }

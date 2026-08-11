@@ -42,7 +42,11 @@ export default function VisualMoodTiles() {
 
   const selectedTiles = MOCK_MOOD_TILES.filter((t) => selectedTileIds.includes(t.id));
 
+  // Same requirement as the typed path — origin drives every cost figure.
+  const hasOrigin = Boolean(constraints.originCity);
+
   const handleExplore = () => {
+    if (!hasOrigin) return;
     submitMoodPrompt();
     const { sessionId } = useWandrStore.getState();
     if (sessionId) router.push(`/discover/${sessionId}`);
@@ -203,7 +207,7 @@ export default function VisualMoodTiles() {
       {/* Self-contained submit for the tap path */}
       <button
         type="button"
-        disabled={selectedTileIds.length === 0}
+        disabled={selectedTileIds.length === 0 || !hasOrigin}
         onClick={handleExplore}
         className="w-full py-3 px-5 rounded-xl bg-gradient-to-r from-amber-500 via-orange-500 to-rose-500 hover:from-amber-400 hover:via-orange-400 hover:to-rose-400 disabled:opacity-40 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-orange-500/25 hover:scale-[1.01] active:scale-[0.99] transition-all duration-200"
       >
@@ -211,6 +215,13 @@ export default function VisualMoodTiles() {
         <span>Explore These Vibes</span>
         <ArrowRight className="w-3.5 h-3.5" />
       </button>
+      {/* The origin picker lives in the panel beside this one, so a tile-path user
+          needs telling where the blocker is — otherwise the button just looks dead. */}
+      {selectedTileIds.length > 0 && !hasOrigin && (
+        <p className="text-[11px] font-semibold text-orange-600 text-center">
+          Pick where you&rsquo;re travelling from first — it&rsquo;s in the panel on the left.
+        </p>
+      )}
     </div>
   );
 }

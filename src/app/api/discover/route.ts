@@ -1,12 +1,12 @@
 import { NextRequest } from 'next/server';
-import { getCatalogue } from '@/lib/catalogue';
+import { getCatalogue, getOriginTransit } from '@/lib/catalogue';
 import {
   ChatMessageParam,
   presentDestinationsTool,
   streamChatCompletion,
 } from '@/lib/deepseek';
 import { scrubText } from '@/lib/pii';
-import { Destination } from '@/types';
+import { Destination, OriginCity } from '@/types';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -36,6 +36,9 @@ Your limits:
 interface DiscoverRequest {
   message: string;
   history?: Array<{ sender: 'user' | 'ai'; text: string }>;
+  /** When present, cards carry real per-route cost and duration instead of the
+   *  origin-agnostic tier estimate. */
+  originCity?: OriginCity;
 }
 
 interface Selection {
@@ -183,7 +186,7 @@ export async function POST(req: NextRequest) {
       }
 
       let usedFallback = false;
-      let cards: Destination[];
+      let cards: Destination[] = [];
 
       if (known.length > 0) {
         cards = known.map((s, i) => ({
@@ -204,6 +207,23 @@ export async function POST(req: NextRequest) {
         cards = catalogue.fallbackIds
           .slice(0, 3)
           .map((id, i) => ({ ...catalogue.byId.get(id)!, matchScore: 80 - i * 4 }));
+      }
+
+      // Attach origin-specific transit. Done after selection so we only query the
+      // 3–4 routes actually being shown, not all 25.
+      if (body.originCity) {
+        const transit = await getOriginTransit(body.originCity, cards.map((c) => c.id));
+        cards = cards.map((c) => {
+          const t = transit.get(c.id);
+          return t
+            ? {
+                ...c,
+                originTransit: t,
+                // The headline duration becomes the real one for this origin.
+                quickStats: { ...c.quickStats, transitHours: t.durationHours },
+              }
+            : c;
+        });
       }
 
       send('cards', { destinations: cards, isFallback: usedFallback });

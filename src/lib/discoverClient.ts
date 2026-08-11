@@ -1,4 +1,4 @@
-import { Destination } from '@/types';
+import { Destination, OriginCity } from '@/types';
 
 /**
  * Browser-side consumer for the /api/discover SSE contract (§5).
@@ -21,6 +21,7 @@ export interface DiscoverHandlers {
 export interface DiscoverRequest {
   message: string;
   history?: Array<{ sender: 'user' | 'ai'; text: string }>;
+  originCity?: OriginCity;
   signal?: AbortSignal;
 }
 
@@ -33,7 +34,7 @@ export async function streamDiscovery(
     res = await fetch('/api/discover', {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ message: req.message, history: req.history }),
+      body: JSON.stringify({ message: req.message, history: req.history, originCity: req.originCity }),
       signal: req.signal,
     });
   } catch (err) {

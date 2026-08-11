@@ -98,6 +98,25 @@ export interface HiddenFeeAlert {
   isMandatory: boolean;
 }
 
+/**
+ * Origin-specific transit, joined from the `transit_routes` table when the
+ * traveller has set an origin city. Distinct from `QuickStats.transitHours`,
+ * which is origin-agnostic ("from a major metro") and therefore the same number
+ * whether you are leaving from Delhi or Chennai.
+ *
+ * Absent when no origin is known, so the UI can fall back to the coarse tier.
+ */
+export interface OriginTransit {
+  originCity: OriginCity;
+  mode: 'flight' | 'train' | 'bus' | 'self_drive';
+  /** Round trip, per person, INR. Matches estimateTransitCostINR() semantics. */
+  costINR: number;
+  /** One way, door to door. */
+  durationHours: number;
+  /** true = generated from fare bands, false = owner-verified against a real fare. */
+  isEstimate: boolean;
+}
+
 export interface Destination {
   id: string;
   name: string;
@@ -112,6 +131,8 @@ export interface Destination {
   curiosityHook: string;
   overviewSummary: string;
   quickStats: QuickStats;
+  /** Populated by /api/discover when the request carried an origin city. */
+  originTransit?: OriginTransit;
   travelZone: TravelZone; // for origin-aware transit tier lookups, distinct from the display-only `region` string
   weather: WeatherInfo;
   bestForTags: string[];
